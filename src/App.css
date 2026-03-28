@@ -5,14 +5,14 @@
   --font-quicksand: "Quicksand", sans-serif;
   --font-cormorant: "Cormorant Garamond", serif;
 
-  --color-brand-yellow-primary: #eaaa00;
-  --color-brand-yellow-secondary: #db8700;
+  --color-brand-yellow-primary: #d49c00;
+  --color-brand-yellow-secondary: #c97900;
   --color-brand-purple-primary: #8b60c4;
   --color-brand-purple-secondary: #604ca8;
 
-  --color-brand-teal: #00cdb4;
-  --color-brand-blue: #1571bc;
-  --color-brand-brown: #594d3e;
+  --color-brand-teal: #00b39c;
+  --color-brand-blue: #1263a5;
+  --color-brand-brown: #453c30;
   --color-brand-navy: #333159;
 
   font-family: var(--font-quicksand);

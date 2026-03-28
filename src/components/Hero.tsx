@@ -79,6 +79,8 @@ export const Hero = () => {
                   src={heroImages[currentImageIndex]}
                   alt="Clínica Equilíbrio do Ser"
                   className="absolute inset-0 w-full h-full object-cover"
+                  width={600}
+                  height={800}
                   initial={{ opacity: 0, scale: 1.05 }}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0 }}

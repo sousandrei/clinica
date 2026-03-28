@@ -9,9 +9,11 @@ const App = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <Hero />
-      <Services />
-      <About />
+      <main>
+        <Hero />
+        <Services />
+        <About />
+      </main>
       <Footer />
     </div>
   );
