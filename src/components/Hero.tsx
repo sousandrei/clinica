@@ -3,11 +3,11 @@ import { Activity, ChevronRight, Flower2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const heroImages = [
-  '/assets/acump.jpeg',
-  '/assets/fisio.jpeg',
-  '/assets/pilates.jpeg',
-  '/assets/psico.jpeg',
-  '/assets/rpg.jpeg',
+  '/assets/acump.webp',
+  '/assets/fisio.webp',
+  '/assets/pilates.webp',
+  '/assets/psico.webp',
+  '/assets/rpg.webp',
 ];
 
 export const Hero = () => {
@@ -83,6 +83,10 @@ export const Hero = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.8, ease: 'easeInOut' }}
+                  {...(currentImageIndex === 0 ? { 
+                    fetchPriority: "high",
+                    loading: "eager"
+                  } : {})}
                 />
               </AnimatePresence>
 
