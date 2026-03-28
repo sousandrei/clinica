@@ -272,12 +272,6 @@ const Services = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">{s.title}</h3>
               <p className="text-gray-600 leading-relaxed mb-6">{s.desc}</p>
-              <a
-                href="https://wa.me/556198220458"
-                className="inline-flex items-center text-brand-yellow-secondary font-bold hover:underline"
-              >
-                Saiba mais <ChevronRight size={18} className="ml-1" />
-              </a>
             </motion.div>
           ))}
         </div>
@@ -321,7 +315,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-6 pt-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
               <div className="p-4 border-l-4 border-brand-yellow-primary bg-brand-yellow-primary/5">
                 <div className="text-3xl font-bold mb-1">Humanismo</div>
                 <div className="text-sm text-gray-500 uppercase tracking-widest font-bold">
@@ -369,7 +363,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-2">
-            <img src="/logo-light.svg" alt="Equilíbrio do Ser" className="h-14 w-auto mb-6 opacity-90 hover:opacity-100 transition-opacity" />
+            <img
+              src="/logo-light.svg"
+              alt="Equilíbrio do Ser"
+              className="h-14 w-auto mb-6 opacity-90 hover:opacity-100 transition-opacity"
+            />
             <p className="text-gray-400 max-w-sm mb-8">
               Um espaço dedicado à sua saúde integral em Brasília. Transformando
               vidas através do equilíbrio e cuidado especializado.
