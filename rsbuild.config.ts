@@ -4,4 +4,8 @@ import { pluginReact } from '@rsbuild/plugin-react';
 // Docs: https://rsbuild.rs/config/
 export default defineConfig({
   plugins: [pluginReact()],
+  html: {
+    title: 'Clínica Equilíbrio do Ser',
+    favicon: './public/logo.svg',
+  },
 });

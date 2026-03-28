@@ -5,7 +5,6 @@ import {
   Brain,
   ChevronRight,
   Flower2,
-  Instagram,
   MapPin,
   Menu,
   Phone,
@@ -24,9 +23,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <span className="text-2xl font-bold bg-clip-text text-transparent gradient-yellow">
-              Equilíbrio do Ser
-            </span>
+            <img
+              src="/logo-dark.svg"
+              alt="Equilíbrio do Ser"
+              className="h-12 w-auto"
+            />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -368,7 +369,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-2">
-            <h2 className="text-3xl font-bold mb-6">Equilíbrio do Ser</h2>
+            <img src="/logo-light.svg" alt="Equilíbrio do Ser" className="h-14 w-auto mb-6 opacity-90 hover:opacity-100 transition-opacity" />
             <p className="text-gray-400 max-w-sm mb-8">
               Um espaço dedicado à sua saúde integral em Brasília. Transformando
               vidas através do equilíbrio e cuidado especializado.
