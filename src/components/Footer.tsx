@@ -17,15 +17,6 @@ export const Footer = () => {
               Um espaço dedicado à sua saúde integral em Brasília. Transformando
               vidas através do equilíbrio e cuidado especializado.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="https://wa.me/556198220458"
-                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-brand-yellow-primary transition-colors"
-                aria-label="WhatsApp"
-              >
-                <WhatsAppIcon size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Column 2: Contact Info */}
@@ -46,12 +37,21 @@ export const Footer = () => {
                   Brasília - DF, 70070-120
                 </span>
               </li>
-              <li className="flex items-center space-x-3">
-                <WhatsAppIcon
-                  className="text-brand-yellow-primary shrink-0"
-                  size={18}
-                />
-                <span className="text-gray-400 text-sm">+55 61 9822-0458</span>
+              <li>
+                <a
+                  href="https://wa.me/556198220458"
+                  className="flex items-center space-x-3 group hover:opacity-80 transition-opacity"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <WhatsAppIcon
+                    className="text-brand-yellow-primary shrink-0"
+                    size={18}
+                  />
+                  <span className="text-gray-400 text-sm group-hover:text-brand-yellow-primary transition-colors">
+                    +55 61 9822-0458
+                  </span>
+                </a>
               </li>
             </ul>
           </div>
