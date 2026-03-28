@@ -67,7 +67,7 @@ export const Services = () => {
                 {s.icon}
               </div>
               <h3 className="text-2xl font-bold mb-4">{s.title}</h3>
-              <p className="text-gray-600 leading-relaxed mb-6">{s.desc}</p>
+              <p className="text-gray-600 leading-relaxed">{s.desc}</p>
             </motion.div>
           ))}
         </div>
