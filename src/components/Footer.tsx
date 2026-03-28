@@ -41,7 +41,8 @@ export const Footer = () => {
                 />
                 <span className="text-gray-400 text-sm">
                   Setor Bancário Sul, quadra 2<br />
-                  Bloco S, Sala 507/511 e 805<br />
+                  Bloco S, Sala 507/511 e 805
+                  <br />
                   Brasília - DF, 70070-120
                 </span>
               </li>

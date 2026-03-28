@@ -1,7 +1,25 @@
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { Activity, ChevronRight, Flower2 } from 'lucide-react';
+import { useEffect, useState } from 'react';
+
+const heroImages = [
+  '/assets/acump.jpeg',
+  '/assets/fisio.jpeg',
+  '/assets/pilates.jpeg',
+  '/assets/psico.jpeg',
+  '/assets/rpg.jpeg',
+];
 
 export const Hero = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <section className="relative pt-32 pb-20 overflow-hidden min-h-screen flex items-center">
       <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-yellow-primary/5 rounded-l-full -z-10 blur-3xl animate-pulse" />
@@ -53,18 +71,23 @@ export const Hero = () => {
           transition={{ duration: 1 }}
           className="relative hidden md:block"
         >
-          <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-8 border-white">
-            <div className="aspect-[4/5] bg-brand-yellow-primary/10 flex items-center justify-center">
-              <div className="w-48 h-48 rounded-full border-4 border-brand-yellow-primary border-dashed animate-spiral flex items-center justify-center opacity-30">
-                <div
-                  className="w-32 h-32 rounded-full border-4 border-brand-purple-primary border-dashed animate-spiral opacity-50"
-                  style={{ animationDirection: 'reverse' }}
+          <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-8 border-white bg-brand-yellow-primary/10">
+            <div className="aspect-[4/5] flex items-center justify-center relative overflow-hidden">
+              <AnimatePresence mode="popLayout">
+                <motion.img
+                  key={currentImageIndex}
+                  src={heroImages[currentImageIndex]}
+                  alt="Clínica Equilíbrio do Ser"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  initial={{ opacity: 0, scale: 1.05 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.8, ease: 'easeInOut' }}
                 />
-              </div>
-              <div className="absolute text-brand-yellow-secondary font-medium text-center">
-                [Imagem da Clínica /<br />
-                Ambiente de Cura]
-              </div>
+              </AnimatePresence>
+
+              {/* Subtle overlay gradient to ensure it looks integrated */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-brand-navy/30 to-transparent pointer-events-none mix-blend-multiply" />
             </div>
           </div>
           {/* Floating Card */}
