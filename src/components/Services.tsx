@@ -73,7 +73,7 @@ export const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Nossas Especialidades</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-700 max-w-2xl mx-auto">
             Oferecemos uma abordagem multidisciplinar para garantir que você
             receba o melhor cuidado em todas as áreas da saúde.
           </p>
@@ -94,7 +94,7 @@ export const Services = () => {
                 {s.icon}
               </div>
               <h3 className="text-2xl font-bold mb-4">{s.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{s.desc}</p>
+              <p className="text-gray-700 leading-relaxed">{s.desc}</p>
             </motion.div>
           ))}
         </div>

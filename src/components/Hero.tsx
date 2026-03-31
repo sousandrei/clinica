@@ -35,7 +35,7 @@ export const Hero = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-yellow-primary/10 text-brand-yellow-secondary text-sm font-bold mb-6">
+          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-yellow-primary/10 text-brand-yellow-dark text-sm font-bold mb-6">
             <Flower2 size={16} />
             <span>CUIDADO HUMANIZADO</span>
           </div>
@@ -45,7 +45,7 @@ export const Hero = () => {
               Corpo, Mente e Espírito
             </span>
           </h1>
-          <p className="text-xl text-gray-600 mb-10 max-w-lg">
+          <p className="text-xl text-gray-700 mb-10 max-w-lg">
             A Clínica Equilíbrio do Ser é dedicada ao seu bem-estar integral.
             Ambiente acolhedor e profissionais qualificados para transformar sua
             qualidade de vida.
@@ -109,7 +109,7 @@ export const Hero = () => {
               </div>
               <div className="font-bold">+5000</div>
             </div>
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-gray-600">
               Pacientes atendidos com excelência e carinho.
             </div>
           </div>

@@ -17,7 +17,7 @@ export const About = () => {
                 todas as suas dimensões
               </h2>
               <div className="h-1.5 w-24 gradient-yellow rounded-full mb-8" />
-              <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
+              <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                 <p>
                   Na Clínica Equilíbrio do Ser, acreditamos que a verdadeira
                   saúde nasce da harmonia entre as três dimensões do ser humano:
@@ -38,13 +38,13 @@ export const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
               <div className="p-4 border-l-4 border-brand-yellow-primary bg-brand-yellow-primary/5">
                 <div className="text-3xl font-bold mb-1">Humanismo</div>
-                <div className="text-sm text-gray-500 uppercase tracking-widest font-bold">
+                <div className="text-sm text-gray-600 uppercase tracking-widest font-bold">
                   Nossa Base
                 </div>
               </div>
               <div className="p-4 border-l-4 border-brand-purple-primary bg-brand-purple-primary/5">
                 <div className="text-3xl font-bold mb-1">Inovação</div>
-                <div className="text-sm text-gray-500 uppercase tracking-widest font-bold">
+                <div className="text-sm text-gray-600 uppercase tracking-widest font-bold">
                   Nossa Prática
                 </div>
               </div>

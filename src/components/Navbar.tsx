@@ -14,6 +14,8 @@ export const Navbar = () => {
               src="/logo-dark.svg"
               alt="Equilíbrio do Ser"
               className="h-12 w-auto"
+              width="88"
+              height="48"
             />
           </div>
 

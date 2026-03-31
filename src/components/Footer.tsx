@@ -12,8 +12,10 @@ export const Footer = () => {
               src="/logo-light.svg"
               alt="Equilíbrio do Ser"
               className="h-12 w-auto opacity-90"
+              width="88"
+              height="48"
             />
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed">
               Um espaço dedicado à sua saúde integral em Brasília. Transformando
               vidas através do equilíbrio e cuidado especializado.
             </p>
@@ -21,16 +23,16 @@ export const Footer = () => {
 
           {/* Column 2: Contact Info */}
           <div>
-            <h3 className="text-sm font-bold mb-6 text-brand-yellow-primary uppercase tracking-widest">
+            <h3 className="text-sm font-bold mb-6 text-brand-yellow-light uppercase tracking-widest">
               Contato
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin
-                  className="text-brand-yellow-primary shrink-0"
+                  className="text-brand-yellow-light shrink-0"
                   size={18}
                 />
-                <span className="text-gray-400 text-sm">
+                <span className="text-gray-300 text-sm">
                   Setor Bancário Sul, quadra 2<br />
                   Bloco S, Sala 507/511 e 805
                   <br />
@@ -45,10 +47,10 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   <WhatsAppIcon
-                    className="text-brand-yellow-primary shrink-0"
+                    className="text-brand-yellow-light shrink-0"
                     size={18}
                   />
-                  <span className="text-gray-400 text-sm group-hover:text-brand-yellow-primary transition-colors">
+                  <span className="text-gray-300 text-sm group-hover:text-brand-yellow-light transition-colors">
                     +55 61 99681-1702
                   </span>
                 </a>
@@ -58,7 +60,7 @@ export const Footer = () => {
 
           {/* Column 3: Map (The "Middle") */}
           <div>
-            <h3 className="text-sm font-bold mb-6 text-brand-yellow-primary uppercase tracking-widest">
+            <h3 className="text-sm font-bold mb-6 text-brand-yellow-light uppercase tracking-widest">
               Localização
             </h3>
             <a
@@ -89,10 +91,10 @@ export const Footer = () => {
 
           {/* Column 4: Hours */}
           <div className="lg:pl-8">
-            <h3 className="text-sm font-bold mb-6 text-brand-yellow-primary uppercase tracking-widest">
+            <h3 className="text-sm font-bold mb-6 text-brand-yellow-light uppercase tracking-widest">
               Horários
             </h3>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-300 text-sm">
               <li className="flex justify-between">
                 <span>Seg - Sex:</span>
                 <span className="text-white">08h - 20h</span>
@@ -109,7 +111,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/5 pt-10 text-center text-sm text-gray-500">
+        <div className="border-t border-white/5 pt-10 text-center text-sm text-gray-400">
           <p>© 2026 Clínica Equilíbrio do Ser. Todos os direitos reservados.</p>
         </div>
       </div>
