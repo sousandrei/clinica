@@ -37,7 +37,7 @@ export const Navbar = () => {
               Localização
             </a>
             <a
-              href="https://wa.me/556198220458"
+              href="https://wa.me/5561996811702"
               className="px-6 py-2.5 rounded-full gradient-yellow text-white font-semibold shadow-lg shadow-brand-yellow-primary/20 hover:scale-105 transition-transform"
             >
               Agendar
@@ -96,7 +96,7 @@ export const Navbar = () => {
               Localização
             </button>
             <a
-              href="https://wa.me/556198220458"
+              href="https://wa.me/5561996811702"
               className="px-6 py-3 rounded-xl gradient-yellow text-white font-semibold text-center"
             >
               Agendar via WhatsApp

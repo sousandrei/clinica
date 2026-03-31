@@ -39,7 +39,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/556198220458"
+                  href="https://wa.me/5561996811702"
                   className="flex items-center space-x-3 group hover:opacity-80 transition-opacity"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export const Footer = () => {
                     size={18}
                   />
                   <span className="text-gray-400 text-sm group-hover:text-brand-yellow-primary transition-colors">
-                    +55 61 9822-0458
+                    +55 61 99681-1702
                   </span>
                 </a>
               </li>
@@ -99,7 +99,7 @@ export const Footer = () => {
               </li>
               <li className="flex justify-between">
                 <span>Sábado:</span>
-                <span className="text-white">08h - 14h</span>
+                <span className="text-white">08h - 13h</span>
               </li>
               <li className="flex justify-between">
                 <span>Domingo:</span>

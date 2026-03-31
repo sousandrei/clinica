@@ -49,7 +49,7 @@ export const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <a
-              href="https://wa.me/556198220458"
+              href="https://wa.me/5561996811702"
               className="px-8 py-4 rounded-full gradient-yellow text-white font-bold text-lg shadow-xl shadow-brand-yellow-primary/30 hover:scale-105 transition-transform flex items-center justify-center space-x-2"
             >
               <span>Agendar Avaliação</span>
@@ -85,10 +85,12 @@ export const Hero = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.8, ease: 'easeInOut' }}
-                  {...(currentImageIndex === 0 ? { 
-                    fetchPriority: "high",
-                    loading: "eager"
-                  } : {})}
+                  {...(currentImageIndex === 0
+                    ? {
+                        fetchPriority: 'high',
+                        loading: 'eager',
+                      }
+                    : {})}
                 />
               </AnimatePresence>
 
