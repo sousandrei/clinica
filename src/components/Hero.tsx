@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, m } from 'framer-motion';
 import { Activity, ChevronRight, Flower2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
@@ -29,7 +29,7 @@ export const Hero = () => {
       <div className="absolute bottom-0 left-0 w-1/4 h-1/2 bg-brand-purple-primary/5 rounded-r-full -z-10 blur-3xl animate-pulse delay-1000" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -65,9 +65,9 @@ export const Hero = () => {
               Conhecer Especialidades
             </a>
           </div>
-        </motion.div>
+        </m.div>
 
-        <motion.div
+        <m.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -77,7 +77,7 @@ export const Hero = () => {
           <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-8 border-white bg-brand-yellow-primary/10">
             <div className="aspect-[4/5] flex items-center justify-center relative overflow-hidden">
               <AnimatePresence mode="popLayout">
-                <motion.img
+                <m.img
                   key={currentImageIndex}
                   src={heroImages[currentImageIndex]}
                   alt="Clínica Equilíbrio do Ser"
@@ -113,7 +113,7 @@ export const Hero = () => {
               Pacientes atendidos com excelência e carinho.
             </div>
           </div>
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );

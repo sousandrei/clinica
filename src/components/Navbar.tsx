@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
@@ -61,7 +61,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden bg-white border-b border-brand-yellow-primary/10 px-4 py-6"
@@ -104,7 +104,7 @@ export const Navbar = () => {
               Agendar via WhatsApp
             </a>
           </div>
-        </motion.div>
+        </m.div>
       )}
     </nav>
   );

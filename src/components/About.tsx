@@ -1,11 +1,11 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 
 export const About = () => {
   return (
     <section id="sobre" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -49,9 +49,9 @@ export const About = () => {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </m.div>
 
-          <motion.div
+          <m.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -70,7 +70,7 @@ export const About = () => {
                 style={{ animationDuration: '30s' }}
               />
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import {
   Activity,
   Apple,
@@ -81,7 +81,7 @@ export const Services = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((s) => (
-            <motion.div
+            <m.div
               key={s.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -95,7 +95,7 @@ export const Services = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">{s.title}</h3>
               <p className="text-gray-700 leading-relaxed">{s.desc}</p>
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>
