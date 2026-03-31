@@ -8,10 +8,13 @@
 - Types of medical things to mention
   - acupuntura
   - fisioterapia
-  - psicologia 
+  - psicologia
+  - neuropsicologia
+  - psicopedagogia
+  - terapia ocupacional
+  - clínica médica
   - nutrição
   - pilates
-  - RPG 
 - photos? We can generate some with AI, use placeholders
 
 ## Design philosophy
@@ -58,10 +61,13 @@ Website content needs to be portuguese
 - Specialties include:
   - 🌬️ **Acupuntura**
   - 🏃 **Fisioterapia**
-  - 🧠 **Psicologia**
+  - 🧠 **Psicologia (Adultos e crianças)**
+  - 🧠 **Neuropsicologia (Adultos e crianças)**
+  - 📚 **Psicopedagogia (Adultos e crianças)**
+  - 🤝 **Terapia Ocupacional (Adultos e crianças)**
+  - 🩺 **Clínica Médica (Adultos e crianças)**
   - 🍎 **Nutrição**
   - 🧘 **Pilates**
-  - 🧍 **RPG**
 
 **D. About the Clinic (A Clínica)**
 - **Concept:** Explaining the three dimensions (Body, Mind, Spirit) and the clinic's core philosophy (Humanismo & Inovação).

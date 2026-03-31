@@ -1,5 +1,14 @@
 import { motion } from 'framer-motion';
-import { Activity, Apple, Brain, Stethoscope, Wind } from 'lucide-react';
+import {
+  Activity,
+  Apple,
+  BookOpen,
+  Brain,
+  BrainCircuit,
+  HandHeart,
+  Stethoscope,
+  Wind,
+} from 'lucide-react';
 
 const services = [
   {
@@ -16,9 +25,33 @@ const services = [
   },
   {
     title: 'Psicologia',
-    desc: 'Acolhimento emocional e autoconhecimento em um ambiente seguro.',
+    desc: 'Acolhimento emocional e autoconhecimento em um ambiente seguro (Adultos e crianças).',
     icon: <Brain className="w-8 h-8" />,
     color: 'bg-brand-purple-primary/10 text-brand-purple-primary',
+  },
+  {
+    title: 'Neuropsicologia',
+    desc: 'Avaliação e reabilitação das funções cognitivas, comportamentais e emocionais (Adultos e crianças).',
+    icon: <BrainCircuit className="w-8 h-8" />,
+    color: 'bg-purple-600/10 text-purple-700',
+  },
+  {
+    title: 'Psicopedagogia',
+    desc: 'Diagnóstico e intervenção nos processos de aprendizagem e suas dificuldades (Adultos e crianças).',
+    icon: <BookOpen className="w-8 h-8" />,
+    color: 'bg-blue-600/10 text-blue-700',
+  },
+  {
+    title: 'Terapia Ocupacional',
+    desc: 'Promoção de autonomia, independência e qualidade de vida no dia a dia (Adultos e crianças).',
+    icon: <HandHeart className="w-8 h-8" />,
+    color: 'bg-teal-500/10 text-teal-600',
+  },
+  {
+    title: 'Clínica Médica',
+    desc: 'Atendimento médico focado na prevenção, diagnóstico e tratamento de saúde (Adultos e crianças).',
+    icon: <Stethoscope className="w-8 h-8" />,
+    color: 'bg-red-500/10 text-red-600',
   },
   {
     title: 'Nutrição',
@@ -29,14 +62,8 @@ const services = [
   {
     title: 'Pilates',
     desc: 'Fortalecimento do core, flexibilidade e consciência corporal plena.',
-    icon: <Stethoscope className="w-8 h-8" />,
-    color: 'bg-brand-teal/10 text-brand-teal',
-  },
-  {
-    title: 'RPG',
-    desc: 'Reeducação Postural Global para correção de desequilíbrios estruturais.',
     icon: <Activity className="w-8 h-8" />,
-    color: 'bg-brand-yellow-primary/10 text-brand-yellow-primary',
+    color: 'bg-brand-teal/10 text-brand-teal',
   },
 ];
 

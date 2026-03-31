@@ -7,7 +7,10 @@ const heroImages = [
   '/assets/fisio.webp',
   '/assets/pilates.webp',
   '/assets/psico.webp',
-  '/assets/rpg.webp',
+  '/assets/clinica.webp',
+  '/assets/neurope.webp',
+  '/assets/neuropsico.webp',
+  '/assets/to.webp',
 ];
 
 export const Hero = () => {
